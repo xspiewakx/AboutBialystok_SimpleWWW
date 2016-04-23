@@ -1,0 +1,37 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma';
+	font-size: 12px;
+	line-height: 1.4;
+}
+a, a:active, a:focus {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.cont {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.header {
+	color: #fff;
+	background-color: #000;
+	padding: 10px;
+	text-align: center;
+}
+.cont>h1 { color: #990000; }
+.cont>p { text-align: justify; }
+
+table { float: left; width: 200px; margin: 6px;border: 1px solid black; border-radius: 10px; }
+.yt { width: 100%; text-align: center; }
+iframe { margin-left: auto; margin-right:auto; }
+.footer { text-align: center; padding: 20px;}
